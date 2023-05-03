@@ -27,7 +27,7 @@ For comparison, I am including a photo of the original template we were given:
 
 In addition to configuring a container on our web application, we also had the option to purchase a domain name from GoDaddy to use. I chose to do so, purchased the domain "spaldingtech.com", and pointed it at the web application being hosted on Azure. 
 
-We then created a key vault on Azure where we experimented with self-signed certificates before creating and using an app service managed certificate. This allowed us to restrict traffic to HTTPS only, as well as avoid trust issues with broswers attempting to connect to our site.
+We then created a key vault on Azure where we experimented with self-signed certificates before creating and using an app service managed certificate. This allowed us to restrict traffic to HTTPS only, as well as avoid trust issues (due to self-signed certificates) with broswers attempting to connect to our site.
 
 Finally, we created a front door instance through Azure and created custom WAF rules for our web application. 
 
