@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Spalding Tech</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" href="https://lh3.googleusercontent.com/drive-viewer/AFGJ81o4Dx_VW5pslxHTGkPxPA5VT8TtixIeAwSfxbDpmsM7ow-x7k7B9y01hFRKNYUxkxcsvfBY-lOaiBj0PUxIXLohdsVIGA=s2560"/>
+</head>
+
+<body>
+    <!-- navigation -->
+    <header>
+        <h1>
+            <a href="/">
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rKztHjvNpSvaxo88ORPc_hGiIKx4O-kLOHy6thx68UBU-aHZuweimZLzQ6voBxZGiybU2hFvSq7Bj6582oppsiirQ4cA=s2560" alt="SpaldingLogo" class="logo">
+            </a>
+        </h1>
+        <a href="https://meter-games.itch.io/" target="_blank" class="button">Games</a>
+        <a href="https://github.com/Gigert9/" target="_blank" class="button">GitHub</a>
+        <a href="https://www.soundcloud.com/shudderedm" target="_blank" class="button">Soundcloud</a>
+        <a href="https://michaelgashmusic.bandcamp.com/" target="_blank" class="button">Bandcamp</a>
+        <a href="https://www.linkedin.com/in/tonygash/" target="_blank" class="linkedin"><img
+                src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qUJdWpaklbz2h426uVqhGHtUVa0YMpT8XsdiZcsuOp9cGmokH8uTkzjhvN-GZsH4Cqut2gnhpWV_rf4qs3l8finbB90Q=s2560" alt="LinkedIn logo"
+                height="45px"></a>
+    </header>
+
+
+    <!-- "About" section -->
+    <section id="about" class="intro">
+        <!--Replace with your own image-->
+        <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81oooj1M_NXWFKYGcQp9ombKwgkUZQkoRsAstvDvhdqd5m0MXwqt3cVutFAi9haKkH92UsMfClNeZMXmAzvNHsDQJY8seA=s1600"
+            alt="Tony Gash Picture" height=290px;>
+        <h2 class="section-title">Hi, I'm Tony!</h2>
+        <p>
+        As an aspiring newbie in the world of InfoSec, I've been attending the Georgia Tech Bootcamp for
+        Networking and Cybersecurity. I am also self-taught in a few coding and scripting languages,
+        including C# for game development and Python for data manipulation. In the world of security I am 
+        comfortable with Network Architecture, Systems Administration, and OSINT.
+        <br><br>
+        Here I will be posting blogs that cover many different aspects of the InfoSec field from both the past
+        and present. I hope you find something interesting worth taking away. Thanks for visiting!
+        </p>
+    </section>
+
+
+    <!-- "Blog Posts" section -->
+    <section id="blog-post-collection" class="blog-posts">
+        <h2 class="section-title">Blog Posts</h2>
+        <nav class="navigation" aria-label="blog_navigation">
+            <ul>
+                <h5>Jump To:</h5>
+                <li>
+                    <a href="#Stuxnet" class="link">The Virus Heard 'Round The World</a>
+                </li>
+                <li>
+                    <a href="#LastPass" class="link">You Shall Not (Last) Pass</a>
+                </li>
+                <li>
+                    <a href="#cpni" class="link">Call Me, Text Me, If You Want To Breach me</a>
+                </li>
+            </ul>
+        </nav>
+        <br><br>
+        <article class="blog-post">
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81p-UPRqUZVrrBFN_VyvNQI55uWa12OPVeJHTle788ynuhd_NvVJpjtnFTmV--pAB34aLe0hEbnSxKHm-GxD29uKGwQO=s1600" alt="Image 1">
+
+            <div id="Stuxnet" class="blog">
+                <h3>The Virus Heard 'Round The World</h3>
+                <h4>Cyberwarfare, Zero-Day, Global News</h4>
+                <p>
+                In 2007, the world of international cyberspace changed forever with the introduction of a
+                "third option" by the United States (alongside and due to the influence of Israel). Those close to 
+                me know that, when I take an interest in a field of study, I tend to dive head-first into the deep 
+                end and soak up as much information as possible. Part of this involves a lot of reading of many 
+                different sources, across many different particular niches within the chosen field of study. 
+                There has been no exception to this thirst for knowledge throughout the time I've studied 
+                cybersecurity. I've subscribed to podcasts, researched articles, and read a plethora of books. One 
+                in particular that I highly recommend is <a href="https://www.amazon.com/This-They-Tell-World-Ends/dp/1635576059/"
+                target="_blank" class="link">"This Is How They Tell Me The World Ends" by Nicole Perlroth</a>.
+                <br><br>
+                This book has proved incredibly revealing towards the grand scope and reach of nation states
+                as they utilize the techniques of cybersecurity on a global scale to achieve information from
+                their adversaries. However of all the large-scale threats launched throughout history by
+                independent nations, one stands out as a catalyst that changed the way the game was played.
+                Not to digress, but this is similar to a theory I once heard called the <a href="https://apps.dtic.mil/sti/pdfs/ADA625304.pdf" target="_blank" class="link">"Dreadnought Paradox"</a> in which one "nation's most imporant naval assests are so central to continued operations, morale, or national strategy (or simply so expensive) that military commanders or civilian leaders are reluctant to commit them in dangerous territory." The root of the issue with this paradox is the fear of using an asset that defines the game. This becomes compounded if or when the asset is used as, by definition, it is a game-changer. The playing field is not the same,
+                and the nation is already behind due to their investment in the new asset. The game has changed.
+                <br><br>
+                Stuxnet, as it came to be known, was the first cyberweapon to operate with the objective
+                of physical mass distruction rather than simple surviellance. Launched against Iran's nuclear
+                enrichment facility at Natanz, this weapon made use of an unprecendented seven zero-day 
+                vulnerabilities (acting against both Microsoft Windows and Programmable Logic Controllers using 
+                software by Siemen's) to target and attack the centrifuges within the facility responsible for 
+                isolating a particular uranium isotope needed for Iran's nuclear agenda. It was a very successful 
+                attack.
+                <br><br>
+                Zero-day vulnerabilities are exploits that have been around for zero days. They're brand new,
+                unheard of, and dangerous. All code has zero-days, it's just a matter of how quickly they will be
+                found and who will find them. Typically most zero-day exploits are discovered during the development
+                stage, and the few that exist post-release are patched relatively quickly. Some however, can go
+                unnoticed for months or even years. In the case of Stuxnet, a massive amount of security research, 
+                reverse engineering, and forensics had to be done to identify seven independent zero-days (some will 
+                argue the exploits used against the Siemens PLCs weren't technically zero-day vulnerabilities, but 
+                rather a known issue that was ignored because it did not seem to be a regular occurence given 
+                general usage). There's a lot to be said about zero-day exploits, and perhaps one day I shall write 
+                another blog entry outlining the ethical delimma of the zero-day market. The goal of this post 
+                however, is to discuss the change to the world stage after the revelation of Stuxnet.
+                <br><br>
+                To this day no one quite knows how the virus leaked out of the air-gapped facility, but it
+                did. Every cyberweapon, like their physical counterparts, can be broken down into two major
+                parts. The delivery method, and the payload. While Stuxnet was very intentionally targeted and
+                would only execute on the PLCs within Natanz, the delivery method was generic. Additionally the 
+                zero-days used in the payload were now known (having been discovered by a security firm in 
+                Belarus) and, while some would be patched, the knowledge was permanently exposed. Now, the 
+                attackers could point our own weapons back at us.
+                <br><br>
+                What are the moral requirements for building a cyberweapon? When a missile is launched, upon impact
+                the missile is destroyed. There is no opportunity for an enemy on the receiving end of a successful
+                missile attack to retrieve and examine the missile. However when a virus is deployed it can be 
+                recaptured, examined, and re-targeted. Now that Stuxnet had been released, it can never be put
+                back. And it's only one weapon.
+                <br><br>
+                It's been nearly two decades since the virus was launched, and we're now living in a 
+                post-Stuxnet world of ever impending doom. Evidence of physical destruction caused by cyberweapons
+                designed by the United States (and leaked by the Shadow Broker group) now exists all across the 
+                globe. Sometimes we're responsible for the attack, other times we're not. When will the time come we 
+                are the target? Has it already? The issue here is, it can take years for security researchers to 
+                identify the origin of a new exploit or attack. In the case of Stuxnet, even after it had been 
+                discovered, several years passed before the root of the campaign could be traced back to the United 
+                States and Israel. This means that those responsible for the actions being taken may be long gone 
+                before there are reprecussions being handed out, and it will be those that follow who inherit the 
+                consequences.
+                <br><br>
+                For more on this story, and other equally incredible tales and quotes, I highly recommend 
+                <a href="https://www.amazon.com/This-They-Tell-World-Ends/dp/1635576059/" target="_blank" class="link">
+                "This Is How They Tell Me The World Ends" by Nicole Perlroth</a>. It is an excellent read, and
+                while parts are certainly eye-opening in occasionally scary ways, it is certain to leave
+                you impressed with the technology that's trying very hard to make sure you ignore that its
+                there at all. But then again, that's just <a href="https://www.youtube.com/watch?v=U_7CGl6VWaQ" target="_blank" class="link">the way it is now</a>. The story of Stuxnet has become an iconic one for me, and I often cite it as the sort
+                of action/spy environment that leads me to want to join the field (on a much smaller scale). While I 
+                have no plans to ever operate on behalf of or contribute to the efforts of a nation state, it's very
+                likely many of the developers at Siemens felt similarly. The most appealing aspect of this industry,
+                at least when examined on such a macro level, is the same as the tagline for almost every video game
+                featuring a branching story with multiple endings. Choices matter.
+                </p>
+            </div>
+        </article>
+
+        <p>
+            <a href="#" class="link">Back to Top</a>
+        </p>
+        <br><br>
+
+
+        <!-- second blog post -->
+        <article class="blog-post">
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qiOrRuoez1TonXpxq_6uewB2silfdlezS8-n0L2UZaEgzrmLPgFJgeK5I__coj3rt3HGWTLPOR61_CoRCljhoK_nxD=s1600" alt="Image-2" loading="lazy">
+            <div id="LastPass" class="blog">
+                <h3>You Shall Not (Last) Pass</h3>
+                <h4>Password Management, PII, Data Breach</h4>
+                <p>
+                Before even beginning classes at Georgia Tech's Bootcamp for Networking and Cybersecurity, everyone enrolled was assigned
+                pre-work to prepare us for entering the field of security. As one might assume, InfoSec
+                (Information Security) is centered on the techniques and practices of keeping information secure. A
+                large part of ensuring private data remains secured from prying eyes is the usage of passwords. Naturally it would
+                be counterintuitive to reuse passwords across multiple login points, as this would weaken them all in the event just one of the credentials is leaked or brute-forced. But how can one individual be able to remember all the unique
+                passwords they've created across accounts, especially if those passwords are sufficiently long and
+                contain letters, numbers, and special characters all randomized as much as possible?
+                <br><br>
+                Enter the password manager. A helpful and necessary tool in the cybersecurity professional's arsenal,
+                a password manager attempts to make it easier to remember hundreds (perhaps thousands) of unique
+                login credentials across access portals located both online and off. The idea is simple. Remember one strong
+                password to unlock a vault containing all the credentials that have been created. As long as the one
+                main password remains secure, all the passwords remain secure. At least, that's the idea.
+                <br><br>
+                In the pre-work we were assigned, one requirment was to create an account with (and implement the use of) a password manager. There are many options that exist to fulfil this requirement, but specifically LastPass was recommended as the ideal choice for the aspiring students within our cohort. This proved to be a fatally poor recommendation as within at least three days of the pre-work material being distributed, LastPass suffered their worst (but not their first) breach.
+                <br><br>
+                In December of 2022, LastPass <a href="https://blog.lastpass.com/2023/03/security-incident-update-recommended-actions/"
+                target="_blank" class="link">announced</a> they had suffered a security incident that stemmed from a 
+                breach of their cloud-based storage environment in August of that same year. In their blog post 
+                LastPass claimed (quite confidently) that "no customer data was accessed during" the incident, only 
+                "some source code and technical information were stolen" by the threat actors. With these words, 
+                LastPass unknowingly entered into the worst timeline possible.
+                <br><br>
+                Over the next several months, <a href="https://www.youtube.com/watch?v=GE7iUgfw8vI" target="_blank" class="link">more</a> and <a href="https://www.youtube.com/watch?v=fTtUhluQiIk" target="_blank" class="link">more</a> information would come forth as digital forensics teams
+                went to work auditing the potential damage of the breach. The hope was that even though the attacker
+                was able to access a backup of customer vault data from within LastPass' encrypted cloud storage
+                container, the proprietary binary encryption format of the data would keep sensitive customer data
+                protected from snooping eyes. However, the same December post from LastPass was forced to admit that
+                website URLs were not encrypted. This leads to some major concerns. While most major web services
+                would be smart enough not to place login credentials as clear-text within a URL, not all are. Beyond
+                that shocking thought is the fact that, though the threat actor(s) might not have full login credentials
+                for every site a customer had stored in their vault, they would certainly know <em>which</em> 
+                sites were stored in the customer vault (in turn revealing information about the users internet 
+                activity). That knowledge alone might be enough to launch a blackmail campaign against some people.
+                <br><br>
+                The story unfortunately does not end there, as LastPass would continue to downplay the attack as much 
+                as possible in an overly corporate-safe manner that seemed to hope the news would be swiftly swept 
+                to the side by some other breaking story. This did not happen, all the while the severity and threat 
+                to  customers did not decrease. On the contrary, the embarrasment LastPass would face skyrocketed. 
+                Remember, we haven't yet discussed how the threat actor entered LastPass' back-end in the first 
+                place.
+                <br><br>
+                While password managers are an essential part of the security professionals toolbelt, common sense
+                is even more important. Common sense dictates that if the world of software is constantly battling
+                the threat of intrusion, then keeping services up to date is an absolute must. Sadly, a LastPass
+                DevOp engineer <a href="https://arstechnica.com/information-technology/2023/02/lastpass-hackers-infected-employees-home-computer-and-stole-corporate-vault/"
+                target="_blank" class="link">lacked such sense</a> and this is the failure that led to this devastating breach. This particular employee used Plex Media Server on their home
+                network, and "the threat actor was able to capture the employee's master password as it was entered".
+                Could've happened to anyone? Not if they had updated their Plex Server at any point over the course
+                of the 75 previous versions of the software that had been released. Indeed, the company behind
+                Plex Media Server claimed to have fixed the bug in May of 2020, years before the breach occured. The
+                comedy of the situation almost outweighs the tragedy. Almost.
+                <br><br>
+                Plex is not without their own issues, and this scenario goes to emphasize the necessity for all
+                software developers to work together to maintain a hardened position against the constant threat
+                of attack from malicious actors. However the way LastPass handled the situation, and the severity of
+                the breach led me to quickly rethink the suggestion from the course materials. Luckily, I had not
+                set up an account with LastPass yet, and had not integrated any form of payment or any login
+                credentials. 
+                <br><br>
+                For anyone still searching for the right password manager, I highly recommend <a href="https://bitwarden.com/"
+                target="_blank" class="link">BitWarden</a>. It is fully open-source software and they offer a wonderful free program 
+                for individuals. In addition to having a browser extension that integrates with every browser I've thrown it 
+                at, it's also possible to host a password vault offline. This gives the added advantage of access to passwords 
+                without access to the internet, as well as providing the only method of password storage that absolutely 
+                guarantees zero possibility for intrusion. A password vault that never touches the internet cannot be breached 
+                (so long as it remains truly air-gapped and no one with nefarious intentions is physically able to interact with 
+                it). Whatever option you decide to go with, I find it imperative to keep in mind the wise words of Gandalf the 
+                Grey, <a href="https://www.youtube.com/watch?v=iThtELZvfPs" target="_blank" class="link">"Keep it secret. Keep it safe."</a>
+                </p>
+            </div>
+        </article>
+
+        <p>
+            <a href="#" class="link">Back to Top</a>
+        </p>
+        <br><br>
+
+        <!--Third Blog Post-->
+        <article class="blog-post">
+            <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81oS7sLj89g6NmLho2mWuQBSpVxJ04ZlkfaERC0TbEJSBxIrnz0osRV-HyUX8VTwKq2N8hOacbCTge4_6pWmYEZlcwiG=s1600" alt="Image-3" loading="lazy">
+            <div id="cpni" class="blog">
+                <h3>Call Me, Text Me, If You Want To Breach Me</h3>
+                <h4>PII, Data Breach, CPNI</h4>
+                <p>
+                    This story was brought to my attention by <a href="https://krebsonsecurity.com/2023/03/why-you-should-opt-out-of-sharing-data-with-your-mobile-provider/"
+                    target="_blank" class="link">Krebs On Security</a>.
+                    <br><br>
+                    People all over the world struggle with managing their screen-usage. There's even been <a href="https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/computer-vision-syndrome?sso=y"
+                    target="_blank" class="link">medical discoveries</a> made as a result of the amount of time people spend looking at screens.
+                    One of the most frequently viewed screens, is that of our phones. There's plenty to be said about the effect of the smartphone
+                    on modern humanity. We carry them everywhere. Home, car, bathroom. Everywhere.
+                    <br><br>
+                    It should be no surprise that, given our over dependency on these devices, our smartphones contain a lot of personal information
+                    about us that most would probably prefer not to have exposed. There might be more there than initially meets the eye, however.
+                    This is CPNI, <a href="https://www.techtarget.com/searchnetworking/definition/CPNI" target="_blank" class="link">"Cusomter Proprietary Network Information"</a>, essentially customer-specific metadata that doesn't include passwords,
+                    credit card numbers, or Social Security numbers, but can include a lot of other useful knowledge for threat actors. What would 
+                    you do if someone had a record of all the numbers you've called, how long you called them, and at what times. Not so bad? How about
+                    if this malicious force was also aware of your name, email addres, and how much you were currently paying for mobile service? I think
+                    it's clear how an attacker could target individuals through phishing schemes to gain access to the passwords missing from the CPNI
+                    data. 
+                    <br><br>
+                    None of this is a secret, of course. It's all right there in your End User License Agreement! Didn't you read it?! It should be noted
+                    that, even if you did fully digest the <a href="https://www.visualcapitalist.com/terms-of-service-visualizing-the-length-of-internet-agreements/" target="_blank" class="link">lengthy EULA</a>, current law dictates that "cellphone use is only protected as CPNI when it is
+                    being used as a telephone". I don't know about you, dear reader, but I find myself readily attempting to connect to a WIFI hotspot whenever
+                    possible, as it's usually faster than a cell connection for data. As it turns out, "Internet use, websites visited, search history, or
+                    apps used are not protected CPNI". This means your mobile carrier can share (or, even better, sell) your data because they're not
+                    explicitly prohitbited from doing so. Naturally, all the major carriers claim to make an effort to anonymize the data being shared,
+                    but it's been proven that de-anonymizing supposedly anonymous browsing data <a href="https://www.vice.com/en/article/gygx7y/your-anonymous-browsing-data-isnt-actually-anonymous"
+                    target="_blank" class="link">isn't as hard as thought</a>.
+                    <br><br>
+                    I am an AT&T user, and so I'm going to focus on their service in this blog. AT&T claims to share device identification (suspiciously referred to as the "ad ID"), combined 
+                    with the user's demographic information (age, gender, etc.), with third parties. They further explicitly state these third parties
+                    include advertisers, social media networks, analytics firms, and other similar companies. This is an incredibly large amount of
+                    data (AT&T has an incredibly large customer pool) being shared with an incredibly large number of third-parties (honestly, sharing
+                    my data with just <em>one</em> other party is too large a number of parties in my opinion). The <a href="https://www.att.com/consent/cpni/"
+                    target="_blank" class="link">CPNI opt-out page</a> for AT&T admits the company shares data with many of its affiliates, and (until 
+                    recently) with Xandr (whose own <a href="https://docs.xandr.com/bundle/service-policies/page/third-party-providers.html" target="_blank"
+                    class="link">privacy policy</a> admits to sharing data with "<em>hundres of other advertising firms</em>"). For what it's worth, 
+                    Microsoft <a href="https://about.att.com/story/2022/xandr-microsoft.html" target="_blank" class="link">bought Xandr</a> from AT&T, but
+                    what was done with the data? Is it any surprise there's little about this detail within articles covering the purchase? I think not.
+                    <br><br>
+                    Not all is lost, however, as all of the major carriers in the U.S. offer customers an option to opt out of sharing data with marketers. And,
+                    in case it wasn't clear yet, you should. In January of 2023, T-Mobile announced that a threat actor had exfiltrated data related to
+                    <a href="https://krebsonsecurity.com/2023/01/new-t-mobile-breach-affects-37-million-accounts/" target="_blank" class="link">37 million</a>
+                    accounts. Last summer, a cybercriminal was selling the PII of 23 million Americans. After being analyzed, it seemed the data belonged
+                    to <a href="https://krebsonsecurity.com/2022/08/it-might-be-our-data-but-its-not-our-breach/" target="_blank" class="link">AT&T customers</a>.
+                    <br><br>
+                    Yes, it's true that CPNI data does not involve technically sensitive information, like a credit card number, but the fact that balances and payments
+                    made is included means it's easier for fraudsters to make scam emails and text messages believable as they try to impersonate and phish
+                    customers. The other problem is your consent to this policy indicates consent with future policies. As long as you utilize this service without
+                    questioning motives or the exact pipeline, these companies are free to update and change their privacy policies at any time. If we were to 
+                    develop laws that were legitimately consumer-friendly, this entire scenario would be opt-in (rather than opt-out). However, until that happens,
+                    know that cellphone carriers (and indeed most companies) can change their policies whenever it suits them. It's up to the consumer (you) to 
+                    be aware of how (and what parts) of your data are being used, shared, and sold. Be your <a href="https://www.youtube.com/watch?v=5Y-X1Uz4NgU" target="_blank" class="link">own hero</a>. 
+                </p>
+            </div>
+        </article>
+    </section>
+</body>
+
+<footer class="footer">
+        <p>
+        &lt;&lt;&lt; &copy;2023 Spalding Tech &gt;&gt;&gt;
+        </P>
+        <p>
+            <a href="#" class="link">Back to Top</a>
+        </p>
+</footer>
+
+</html>
