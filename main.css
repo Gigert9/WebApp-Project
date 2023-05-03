@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica;
+    color: #082D49
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .link {
+    color: #E0E0E0;
+    text-decoration: underline;
+  }
+  
+  .link:hover {
+    color: #707070;
+  }
+
+  .link:visited {
+    color: #B3B3B3;
+  }
+  
+  /* apply styles to <header> */
+  header {
+    padding: 35px 35px;
+    background-color: black;
+  }
+  
+  header h1 {
+    font-family: Gopher;
+    font-weight: bold;
+    font-size: 36px;
+    color: #00ADFF;
+    margin: 0;
+    display: inline;
+  }
+  header a {
+    text-decoration: none;
+    color: #00ADFF;
+  }
+  
+  .button{
+    background-color: #067DB5;
+    font-family: Gopher;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 50px;
+  }
+  
+  .button:hover{
+    background-color: #055479;
+    font-family: Gopher;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 50px;
+  }
+  
+  .linkedin{
+    position:absolute;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 3px;
+  }
+  
+  .linkedin:hover{
+    filter:contrast(200%) brightness(40%);
+  }
+  
+  /* Hero Style Start */
+  .intro {
+    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AFGJ81rLR8lSimwuW5tvfaBXMcl41r05rKN_iORCK_jqYfeh4W2JXmBAfcKI79lkHC9lZUlFWxz8SfH_SXv-pRP0AdZ7ivKYgQ=s1600");  
+    height: 555px;
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 300px;
+    padding-right: 150px;
+  
+  }
+  
+  .intro img{
+    border-radius: 50%;
+    float: left;
+    display:inline-block;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    color: rgba(0, 0, 0, .5)
+  }
+
+  .logo {
+    float: left;
+    height: 60px;
+    margin-left: 0px;
+  }
+  
+  
+  .intro {
+    color: #ffffff;
+    text-align: left;
+  
+  }
+  
+  .intro p {
+    line-height: 1.7;
+    color: #ffffff;
+    width: 80%;
+    font-weight: lighter;
+    font-size: 20px;
+    
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  /* Hero Style end */
+  
+  section {
+    padding: 60px;
+    background-color: black;
+  }
+  
+  .section-title {
+    font-family: Gopher;
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: -10px 100px 20px 100px;
+    display: inline-block;
+  }
+  
+  .blog-posts {
+    text-align: center;
+    color: #00ADFF;
+  }
+  
+  .footer {
+    background-color: black;
+    color: #00ADFF;
+    text-align: center;
+  }
+
+  .navigation {
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .blog-post {
+    width: 1200px;
+    margin: 0 auto 30px auto;
+    background: #00215A;
+    overflow: auto;
+    color: #FFF;
+  }
+  
+  .blog-post img {
+    height:300px;
+    width: 40%;
+    float: left;
+  }
+  
+  .blog {
+    padding: 45px;
+    float: left;
+    width: 60%;
+    text-align: left;
+  
+  }
+  
+  .blog h3 {
+    font-weight: bold; 
+    font-family: Gopher;
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .blog h4 {
+    color: #8c8c8c;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .blog p {
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 1.3;
+  }
