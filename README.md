@@ -1,4 +1,4 @@
-# WebApp-Project
+# WebApp Project
 
 The first project completed during Georgia Tech's Cybersecurity and Networking Bootcamp involved creating and deploying a web application through a virtual environment built with Microsoft Azure. This was accomplished over three class days, however I commited several hours outside of class to adjusting and expanding the site through changes to the HTML and CSS files. 
 
